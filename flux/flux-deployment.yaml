@@ -101,7 +101,7 @@ spec:
 
         # replace or remove the following URL
         - --git-url=git@github.com:wkim-ent/gitops-tutorial
-          --git-path-deploy/kubernetes
+          --git-path=deploy/kubernetes
         - --git-branch=master
 
         # include these next two to connect to an "upstream" service
